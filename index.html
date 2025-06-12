@@ -1,4 +1,4 @@
-q  <!doctype html>
+<!doctype html>
 <html class="no-js" lang="zxx">
     <head>
         <meta charset="utf-8">
@@ -24,7 +24,25 @@ q  <!doctype html>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
    </head>
+   <style>
+    /* In your CSS file or within <style> tags */
+.profile-photo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-right: 20px; /* adds space between text and photo on desktop */
+    margin-top: -20px;  /* move image slightly higher */
+}
 
+@media (max-width: 767.98px) {
+    .profile-photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+    </style>
    <body>
     <!-- Preloader Start -->
     <div id="preloader-active">
@@ -90,50 +108,35 @@ q  <!doctype html>
     <main>
 
         <!-- slider Area Start-->
-        <div class="slider-area ">
-            <div class="slider-active">
-                <!-- Single Slider -->
-                <div class="single-slider slider-height d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-8">
-                                <div class="hero__caption">
-                                    <span data-animation="fadeInUp" data-delay=".4s" style="color:#002d5b">Get Every Single Solution.</span>
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Aaron Oyier Digital Marketer</h1>
-                                    <p data-animation="fadeInUp" data-delay=".8s" >" I'm a Mid-level professional, I help clients navigate their career roadmap and refine their executive presence."</p>
-                                    <!-- Hero-btn -->
-                                    <div class="hero__btn">
-                                        <!-- a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Learn More</a -->
-                                        <a href="industries.html" class="btn border-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">Hire Me</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="slider-area">
+    <div class="slider-active">
+        <!-- Single Slider -->
+        <div class="single-slider slider-height d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Image Column -->
+                    <div class="col-xl-6 col-lg-6 col-md-4 order-1 order-md-2 d-flex justify-content-center justify-content-md-end mb-4 mb-md-0">
+                        <img src="assets/img/hero/Aaron.png" alt="Profile Photo" class="img-fluid rounded-circle profile-photo">
                     </div>
-                </div>
-                <!-- Single Slider -->
-                <div class="single-slider slider-height d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                          <div class="col-xl-6 col-lg-6 col-md-4 order-1 order-md-2 text-center mb-4 mb-md-0">
-                <img src="assets/img/hero/Aaron.png" alt="Profile Photo" class="img-fluid rounded-circle" style="max-width: 300px;">
-            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-8">
-                                <div class="hero__caption">
-                                    <span data-animation="fadeInUp" data-delay=".4s">Get Every Single Solutions.</span>
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">I’m Designer Haris F. Watson</h1>
-                                    <p data-animation="fadeInUp" data-delay=".8s" >jhorem rfpsum golor sidt amet, consectetur adipiscing elit, eiusmod tempor incididunt utcjhg labore bet dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                    <!-- Hero-btn -->
-                                    <div class="hero__btn">
-                                        <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Learn More</a>
-                                        <a href="industries.html" class="btn border-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">Hire Me</a>
-                                    </div>
-                                </div>
+                    <!-- Text Column -->
+                    <div class="col-xl-6 col-lg-6 col-md-8 order-2 order-md-1">
+                        <div class="hero__caption">
+                            <span data-animation="fadeInUp" data-delay=".4s" style="color:#002d5b">Get Every Single Solution.</span>
+                            <h1 data-animation="fadeInUp" data-delay=".6s">Aaron Oyier Digital Marketer</h1>
+                            <p data-animation="fadeInUp" data-delay=".8s">" I'm a Mid-level professional, I help clients navigate their career roadmap and refine their executive presence."</p>
+                            <!-- Hero-btn -->
+                            <div class="hero__btn">
+                                <a href="industries.html" class="btn border-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">Hire Me</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Single Slider End -->
+    </div>
+</div>
+
         </div>
         <!-- slider Area End-->
         <!-- About Area start -->
