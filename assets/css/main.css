@@ -394,7 +394,11 @@ hr {
 }
 
 .btn {
+<<<<<<< HEAD
     background: #ffd900;
+=======
+    background: #FFD700;
+>>>>>>> eae140c052575b2879524438aa235fb2cb373306
     -moz-user-select: none;
     text-transform: uppercase;
     color: #fff;
